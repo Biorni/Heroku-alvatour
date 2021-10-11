@@ -1,0 +1,59 @@
+body {
+  margin: auto;
+  width: 1200px;
+  font-family: Century Gothic;
+}
+
+/* Nav bar css */
+ul#menu li {
+  margin: 10px;
+  display: inline;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+ul {
+  margin-right: 351px;
+  background-color: rgba(54, 54, 54, 0.90);
+  height: 60px;
+  width: 1160px;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  text-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  max-width: 35%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+/* footer css */
+footer {
+  text-align: center;
+  background-color: #363636;
+  color: white;
+  font-size: 20px;
+}
+
+div.copyright {
+  font-size: 15px;
+}

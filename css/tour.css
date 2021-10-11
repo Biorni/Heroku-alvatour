@@ -1,0 +1,71 @@
+body {
+  margin: auto;
+  width: 1200px;
+  font-family: Century Gothic;
+}
+
+/* Nav bar css */
+ul#menu li {
+  margin: 10px;
+  display: inline;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+ul#menu {
+  margin-right: 351px;
+  background-color: rgba(54, 54, 54, 0.90);
+  height: 60px;
+  width: 1160px;
+  padding-top: 30px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul#tourguides {
+  list-style-type: none;
+}
+
+div.list1 {
+  float: left;
+  border: 1px solid black;
+  margin-left: 400px;
+  width: 200px;
+  margin-top: 50px;
+}
+
+div.list2 {
+  float: right;
+  border: 1px solid black;
+  margin-right: 350px;
+  width: 200px;
+  margin-top: 50px;
+}
+
+div.dates {
+  background-color: #363636;
+  color: white;
+  padding-left: 20px;
+}
+
+main>p.description {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 600px;
+}
+
+/* footer css */
+footer {
+  text-align: center;
+  background-color: #363636;
+  color: white;
+  font-size: 20px;
+}
+
+div.copyright {
+  font-size: 15px;
+}

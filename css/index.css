@@ -1,0 +1,108 @@
+body {
+  margin: auto;
+  width: 1200px;
+  font-family: Century Gothic;
+}
+
+/* Nav bar css */
+ul#menu li {
+  margin: 10px;
+  display: inline;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+ul {
+  margin-right: 351px;
+  background-color: rgba(54, 54, 54, 0.90);
+  height: 60px;
+  width: 1160px;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* intro css */
+div.intro {
+  margin-right: 400px;
+  margin-top: 50px;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+
+a.reservespot {
+  color: black;
+}
+
+/* slider css */
+.slider {
+  width: 800px;
+  margin: 2px auto;
+  margin-top: 70px;
+  margin-right: 100px;
+  float: left;
+  margin-left: 10px;
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.slide {
+  float: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 3s linear;
+}
+
+.slider-wrapper>.slide:first-child {
+  opacity: 1;
+}
+
+/* aside css */
+aside {
+  float: right;
+  margin-top: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
+/* special offers css */
+.container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.child {
+  justify-content: center;
+  margin: 30px;
+  flex: 0 0 20%;
+  margin-left: 90px;
+}
+
+.child>img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* footer css */
+footer {
+  text-align: center;
+  background-color: #363636;
+  color: white;
+  font-size: 20px;
+}
+
+div.copyright {
+  font-size: 15px;
+}

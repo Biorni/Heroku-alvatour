@@ -1,0 +1,95 @@
+body {
+  margin: auto;
+  width: 1200px;
+  font-family: Century Gothic;
+}
+
+/* Nav bar css */
+ul#menu li {
+  margin: 10px;
+  display: inline;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+ul {
+  margin-right: 351px;
+  background-color: rgba(54, 54, 54, 0.90);
+  height: 60px;
+  width: 1160px;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Form CSS  */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #363636;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #818181;
+}
+
+div.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+div.contactinfo {
+  margin-left: 30px;
+}
+
+/* map css */
+aside {
+  float: right;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 150px;
+}
+
+/* footer css */
+footer {
+  text-align: center;
+  background-color: #363636;
+  color: white;
+  font-size: 20px;
+}
+
+div.copyright {
+  font-size: 15px;
+}
